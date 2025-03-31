@@ -1,0 +1,113 @@
+html {
+    font-family: 'karla', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 650px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container .cabecalho {
+    background-color: #ffffff;
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.container .cabecalho .titulo {
+    font-size: 25px;
+    color: hsl(179, 63%, 47%);
+    font-weight: 720;
+    margin-bottom: 20px;
+}
+
+.container .cabecalho .subtitulo {
+    font-size: 20px;
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.container .cabecalho p {
+    color: hsl(218, 22%, 67%);
+    font-weight: 500;
+}
+
+.container .informacoes-preco {
+    background-color: hsl(179, 62%, 43%);
+    color: #ffffff;
+    padding: 40px 40px;
+    border-radius: 0 0 0 10px;
+
+}
+
+.container .informacoes-preco .titulo-preco {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.container .informacoes-preco .preco {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.container .informacoes-preco .preco p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container .informacoes-preco .preco span {
+    color: hsl(216, 7%, 86%);
+}
+
+.container .informacoes-preco .informacoes-compra {
+    margin-bottom: 30px;
+}
+
+.container .informacoes-preco .btn {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    height: 45px;
+    width: 240px;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.container .beneficios {
+    background-color: hsl(179, 64%, 46%);
+    color: #ffffff;
+    padding: 40px 40px;
+    border-radius: 0 0 10px 0;
+}
+
+.container .beneficios .titulo-beneficios {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.container .beneficios .texto-beneficios {
+    max-width: 210px;
+    font-weight: 400;
+}
+
