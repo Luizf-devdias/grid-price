@@ -1,12 +1,11 @@
 # 💻 Pricing Component - Frontend Mentor Challenge
 
-
-
 Bem-vindo ao meu projeto **Pricing Component**, um desafio do **Frontend Mentor**! 🚀
 
 ## 📌 Sobre o Projeto
 
 Este é um exercício que desenvolvi para aprimorar minhas habilidades em **HTML** e **CSS**, com foco especial no uso de **CSS Grid** para criar layouts modernos e responsivos. 💡
+Link para acessar o projeto: https://luizf-devdias.github.io/grid-price/
 
 ## 🛠️ Tecnologias Utilizadas
 
