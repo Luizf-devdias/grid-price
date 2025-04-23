@@ -91,6 +91,13 @@ body {
     color: #ffffff;
     font-size: 14px;
     border-radius: 5px;
+    transition: 0.2s;
+}
+
+.container .informacoes-preco .btn:hover {
+    background-color: hsl(103, 68%, 44%);
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .container .beneficios {
