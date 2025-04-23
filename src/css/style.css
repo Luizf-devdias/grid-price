@@ -95,14 +95,9 @@ body {
 }
 
 .container .informacoes-preco .btn:hover {
-    background-color: hsl(103, 68%, 44%);
+    background-color: hsl(103, 69%, 45%);
     cursor: pointer;
     transform: scale(1.05);
-}
-
-.container .informacoes-preco .btn:hover {
-    background-color: hsl(68, 70%, 45%)
-    cursor: pointer;
 }
 
 .container .beneficios {
