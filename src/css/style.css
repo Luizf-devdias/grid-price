@@ -100,6 +100,11 @@ body {
     transform: scale(1.05);
 }
 
+.container .informacoes-preco .btn:hover {
+    background-color: hsl(68, 70%, 45%)
+    cursor: pointer;
+}
+
 .container .beneficios {
     background-color: hsl(179, 64%, 46%);
     color: #ffffff;
